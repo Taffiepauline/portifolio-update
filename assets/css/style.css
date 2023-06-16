@@ -1,0 +1,838 @@
+body{
+
+
+overflow-x: hidden;
+}
+
+*{
+  font-family: 'poppinsregular';
+}
+h1{
+  font-family:'poppinsbold' ;
+}
+h2{
+  font-family: 'poppinsbold';
+}
+h3{
+  font-family: 'poppinssemibold';
+}
+*p{
+  font-family:'poppinsregular' ;
+
+}
+  .navbar{
+   position: relative;
+   top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 120px;
+    margin-right: 120px; 
+    background-color: white;
+    border-radius: 0px 25px 0px 25px;
+    height: 100px; 
+   
+  
+
+  }
+  .navbar1{
+    position: relative;
+    top: 20px;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     margin-left: 120px;
+     margin-right: 120px; 
+     background-color: white;
+     border-radius: 0px 25px 0px 25px;
+     height: 100px; 
+   border: 1px solid black;
+    
+   
+ 
+   }
+
+  .toggle-button{
+    position: absolute;
+    top: .75rem;
+    left: 200px;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+  }
+  .toggle-button .bar{
+    height: 3px;
+    width: 100%;
+    background-color:rgb(219, 62, 156);
+   
+    border-radius: 10px;
+  }
+  .herosection{
+    height: 0px;
+  
+   
+    
+   }
+
+ 
+
+  .navbar-links ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  .navbar-links li{
+    list-style: none;
+  }
+  .navbar-links li a{
+    text-decoration: none;
+ 
+    color: black;
+    padding: 2rem;
+    display: block;
+   font-size: 20px;
+   position: relative;
+   top: -20px;
+  }
+  #home{
+    color: rgb(219, 62, 156);
+    font-family:'poppinsbold' ;
+  }
+  
+
+  
+ 
+ 
+ 
+  
+  .brand-tittle{
+ width: 120px;
+ position: relative;
+ top: -20px;
+  }
+  .hello{
+    color:  rgb(219, 62, 156);
+    font-family:'poppinsbold' ;
+  }
+  
+ 
+.hero{
+width: 100%;
+height: 100vh;
+background-image: url(../image/_MG_0201.jpg);
+background-position: center;
+background-size: cover;
+
+color: white;
+}
+.hero1{
+  background-color: rgba(0, 0, 0, 0.595);
+
+height: 100vh; 
+
+}
+.hro{
+  margin-left: 50px;
+  padding-top: 300px;
+ 
+}
+.herotxt{
+  font-family:'poppinsregular' ;
+}
+
+  
+
+
+
+
+.btnhireme{
+  border: 2px;
+  background-color:transparent;
+  padding: 14px 28px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  display: inline-block;
+  border-radius: 5px;
+  margin-top: 50px;
+  border: 2px solid rgb(219, 62, 156);
+
+}
+.About{
+  background-color: black;
+  padding: 100px;
+  justify-content: center;
+
+
+}
+.About1{
+  background-color: black;
+  padding: 100px;
+  padding-top: 150px;
+  justify-content: center;
+
+
+}
+.horizontal1{
+  display: flex;
+  justify-content: center;
+  margin-left:500px ;
+  margin-right: 500px;
+
+}
+.line{
+  width: 150PX;
+  height: 4px;
+  background-color:rgb(219, 62, 156);
+   /* position: absolute;  */
+  margin-right: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+}
+.line1{
+  width: 150PX;
+  height: 4px;
+  background-color:rgb(223, 31, 146);
+   /* position: absolute;  */
+   margin: 2px;
+   margin-left: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.horizontal{
+  display: flex;
+  justify-content: center;
+  margin-left:500px ;
+  margin-right: 500px;
+}
+
+
+.About .container{
+  display:flex;
+  flex-direction: row;
+  margin-top: 100px;
+}
+.About h1{
+  color:white;
+  text-align: center;
+  
+}
+.About1 .container{
+  display:flex;
+  flex-direction: row;
+  margin-top: 100px;
+}
+.About1 h1{
+  color:white;
+  text-align: center;
+  
+}
+#more {
+  display: none;}
+
+.ab{
+  margin-bottom: 50px;
+  }
+  #myBtn{
+    border: none;
+    background-color:white;
+    padding: 14px 28px;
+    color: black;
+    font-size: 16px;
+    cursor: pointer;
+    display: inline-block;
+    border-radius: 5px;
+    font-weight:bold;
+    margin-top: 50px;
+    list-style: none;
+  }
+  
+  .abt{
+  color: white;
+  margin-top: 10px;
+  width: 490px;
+  }
+  .image3{
+margin-left: 220px;
+width: 50%;
+  }
+
+  .btnCV{
+    border: none;
+    background-color:white;
+    padding: 14px 28px;
+    color: black;
+    font-size: 16px;
+    cursor: pointer;
+    display: inline-block;
+    border-radius: 5px;
+    font-weight:bold;
+    margin-top: 50px;
+    text-decoration: none;
+
+  }
+  .skills{
+ /* padding: 80px; */
+    text-align: center;
+    margin-top: 100px;
+  
+  }
+  .skills .container{
+  
+    display:flex;
+    flex-direction: row;
+    margin-top: 100px;
+   
+  }
+  .skills .container p{
+    width: 90%;
+    padding-left: 20px;
+    margin-top: 20px;
+  }
+
+
+  .skills h2{
+    margin-top: 40px;
+  }
+
+
+  .skills1{
+    /* padding: 80px; */
+       text-align: center;
+       margin-top: 200px;
+     
+     }
+     .skills1 .container{
+     
+       display:flex;
+       flex-direction: row;
+       margin-top: 100px;
+      
+     }
+     .skills1 .container p{
+       width: 90%;
+       padding-left: 20px;
+       margin-top: 20px;
+     }
+   
+   
+     .skills1 h2{
+       margin-top: 40px;
+     }
+
+ 
+
+.project{
+  margin-top: 100px;
+  text-align: center;
+  background-color: black;
+  color: white;
+  padding:120px;
+}
+.project .container{
+  padding-top: 100px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.project h3{
+ 
+ margin-left: 25px;
+ margin-top: 40px;
+}
+
+.testmonials{
+  margin: 120px;
+  text-align: center;
+
+}
+.testmonials .container{
+  display: flex;
+  flex-direction: row;
+
+
+
+}
+.teste{
+  margin-top: 120px;
+/*   background-color:  rgb(217, 217, 217);*/
+border: 1px solid rgb(64, 64, 64);
+box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.25);
+  height: 500px;
+  width: 360px;
+ align-items: center;
+ justify-content: center;
+ border-radius: 0px 25px 0px 25px;
+  
+}
+
+.teste p{
+  width: 330px;
+  margin: 10px;
+}
+.testimg{
+  position: relative;
+  top: -80px;
+}
+.contacts{
+  
+ background-color: whitesmoke;
+  padding-top: 70px;
+  padding: 100px;
+  
+}
+.contacts h1{
+ padding-top: 100px;
+
+}
+
+
+
+.contacts .container{
+margin: auto;
+background-color: white;
+ width: 100%;
+ height: 100vh;
+ 
+}
+
+.message{
+  margin-top: 100px;
+}
+.btnsend{
+  border: none;
+  background-color:white;
+  padding: 14px 28px;
+  color: black;
+  font-size: 16px;
+  cursor: pointer;
+  display: inline-block;
+  border-radius: 5px;
+  font-weight:bold;
+  margin-top: 70px;
+  list-style: none;
+  margin-bottom: 70px;
+
+}
+.social{
+  margin: 10px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+
+
+.tafa{
+width: 80%;
+height: 70px;
+margin: 40x 0;
+
+border: none;
+
+border-bottom:solid grey;
+}
+.tafaa{
+  width: 80%;
+  height: 80px;
+
+  
+  border: none;
+  border-bottom:solid grey;
+
+  }
+  .tafaaa{
+   background-color:black ;
+  }
+  .contacts .container .contactme{
+    display: flex;
+    flex-direction: row;
+
+
+  }
+  .ctr{
+    margin: auto;
+    margin-top: 30px;
+  }
+  .log{
+width: 15%;
+position: absolute;
+margin-top: -30px;
+  }
+  .group14{
+    width: 100%;
+    height: 100vh;
+   
+  }
+  .ftr{
+    padding: 50px;
+background-color: black;
+display: flex;
+flex-direction: column;
+justify-content: center;
+  }
+
+  .ft{
+   
+  display: flex;
+  gap: 50px;
+    
+   }
+
+
+
+
+  .ftr a{
+    text-decoration: none;
+    color: white;
+  }
+  .two{
+margin-top: 10px;
+  }
+  .btnsend{
+    border: none;
+    background-color:black;
+    padding: 14px 28px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    display: inline-block;
+    border-radius: 5px;
+    font-weight:bold;
+    margin-top: 70px;
+    list-style: none;
+    margin-bottom: 70px;
+    width: 470px;
+    text-align: center;
+    text-decoration: none;
+   
+  }
+
+  .icons{
+    position: absolute;
+    margin-top: -100px;
+    margin-left: 280px;
+    display: flex;
+    gap: 20px;
+    
+    
+  }
+  .mail0{
+    position: absolute;
+    margin-top: -400px;
+    margin-left: 100px;
+    display: flex;
+    color: white;
+  }
+  .mail1{
+    position: absolute;
+    margin-top: -300px;
+    margin-left: 100px;
+    display: flex;
+    color: white;
+  }
+  .ml{
+    margin-bottom: 10px;
+    margin-right:40px;
+  }
+  .call{
+    margin-right:40px;
+  }
+
+  .info{
+    position: absolute;
+    margin-top: -450px;
+    margin-left: 100px;
+    color: white;
+  }
+
+  .horizontal2{
+    display: flex;
+   justify-content: flex-start;
+width: 40%;
+margin-right: 500px;
+   
+  
+  }
+  .line3{
+    width: 150PX;
+    height: 4px;
+    background-color:rgb(219, 62, 156);
+   
+  }
+  .line2{
+    width: 150PX;
+    height: 4px;
+    background-color:rgb(223, 31, 146);
+  
+  }
+  .horizontal3{
+   display: flex;
+   justify-content: flex-start;
+   width: 40%;
+   margin-left: 0px;
+  
+  }
+
+  .design{
+    margin-top: 120px;
+  /*   background-color:  rgb(217, 217, 217);*/
+  border: 1px solid rgb(64, 64, 64);
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.25);
+    height: 550px;
+    width: 360px;
+   align-items: center;
+   justify-content: center;
+   border-radius: 0px 25px 0px 25px;
+    
+  }
+  .Development{
+    margin-top: 120px;
+  /*   background-color:  rgb(217, 217, 217);*/
+  border: 1px solid rgb(64, 64, 64);
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.25);
+    height: 550px;
+    width: 360px;
+   align-items: center;
+   justify-content: center;
+   border-radius: 0px 25px 0px 25px;
+  }
+
+
+*{
+  margin: auto;
+}
+
+.Projects .container{
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+}
+.flyway{
+  width: 100%;
+}
+.tigizozo{
+  width: 100%;
+}
+.btnsend1{
+  border: none;
+  background-color:black;
+  padding: 14px 28px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  display: inline-block;
+  border-radius: 5px;
+  font-weight:bold;
+  margin-top: 0px;
+  list-style: none;
+  margin-bottom: 70px;
+  width: 200px;
+  text-align: center;
+  text-decoration: none;
+ 
+}
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  @media(max-width:576px){
+    .toggle-button{
+      display: flex;
+    }
+    .navbar-links{
+      display: none;
+     
+    }
+    .hero{
+      background-image: none;
+      background-color: black;
+
+    }
+    .btnhireme{
+      font-size: 15px;
+      padding: 10px 10px;
+      
+    }
+    .About  .container{
+      display:flex;
+      flex-direction: column;
+      margin-top: 100px;
+    }
+  
+   
+
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+@media(max-width:780px){
+.navbar-links{
+  display: none,
+}
+.toggle-button{
+  display: flex;
+}
+.navbar .brand-tittle{
+  display: none;
+}
+.hero{
+background-image: none;
+width: 100%;
+
+}
+
+.hro{
+ margin: 0%;
+  padding-top: 200px;
+  width: 80%;
+  display: flex;
+justify-content: flex-start;
+align-items: center;
+flex-direction: column;
+ 
+}
+.herotxt{
+  width: 100%;
+}
+.hero .container{
+  margin: 0%;
+
+}
+
+.About .container{
+  display:flex;
+  flex-direction: column;
+  margin-top: 0px;
+  
+}
+.About h1{
+  color:white;
+  text-align: center;
+  margin: 0%;
+}
+.ab{
+  margin-bottom: 10px;
+  }
+  
+  .abt{
+  color: white;
+  margin-top: 10px;
+  width: 98%;
+  }
+  .image3{
+display: none;
+  } 
+  .About{
+    padding: 10%;
+  }
+
+  .skills .container{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    
+  }
+
+  .skills{
+    /* padding: 80px; */
+       text-align: center;
+       margin: 0px;
+     
+     }
+
+     .project{
+      margin: 0px;
+      text-align: center;
+      background-color: black;
+      color: white;
+      padding:20px;
+    }
+    .project .container{
+      padding-top:0px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      gap: 10px;
+     
+    }
+    .project h3{
+      width: 100%;
+     margin-left: 0px;
+     margin-top: 10px;
+    }
+
+    .testmonials .container{
+      display: flex;
+      flex-direction: column;
+    
+    }
+    .testmonials{
+      margin: 0px;
+      
+      text-align: center;
+    
+    }
+    .contacts{
+  
+      background-color: black;
+      color: white;
+      /* padding-left:200px; */
+      padding-top: 30px;
+      
+    }
+    .contacts h1{
+      text-align: center;
+    }
+    .contacts hr{
+    width: 60%;
+    height: 2px;
+    color: rgb(223, 31, 146) ;
+    }
+    .contacts .container{
+     margin-left: 0px;
+     margin-top: 0px;
+     
+    }
+    .footer1{
+      margin: 0;
+      width: 100%;
+    }
+  
+
+}
+
+
