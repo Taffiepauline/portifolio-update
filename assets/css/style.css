@@ -51,11 +51,29 @@ h3{
    
  
    }
+  
+   .navbar11{
+    position: relative;
+    top: 20px;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     margin-left: 120px;
+     margin-right: 120px;
+     bottom: 10px;
+     background-color: white;
+     border-radius: 0px 25px 0px 25px;
+     height: 100px; 
+   border: 1px solid black;
+    
+   
+ 
+   }
 
   .toggle-button{
     position: absolute;
-    top: .75rem;
-    left: 200px;
+    top: 35px;
+    left: 300px;
     display: none;
     flex-direction: column;
     justify-content: space-between;
@@ -159,12 +177,14 @@ height: 100vh;
   border-radius: 5px;
   margin-top: 50px;
   border: 2px solid rgb(219, 62, 156);
+  text-decoration: none;
 
 }
 .About{
   background-color: black;
   padding: 100px;
   justify-content: center;
+  
 
 
 }
@@ -256,7 +276,9 @@ height: 100vh;
   .abt{
   color: white;
   margin-top: 10px;
-  width: 490px;
+
+ /*  width: 490px; */
+  
   }
   .image3{
 margin-left: 220px;
@@ -281,6 +303,7 @@ width: 50%;
  /* padding: 80px; */
     text-align: center;
     margin-top: 100px;
+    margin-bottom: 100px;
   
   }
   .skills .container{
@@ -302,6 +325,10 @@ width: 50%;
   }
 
 
+
+
+
+
   .skills1{
     /* padding: 80px; */
        text-align: center;
@@ -320,8 +347,7 @@ width: 50%;
        padding-left: 20px;
        margin-top: 20px;
      }
-   
-   
+     
      .skills1 h2{
        margin-top: 40px;
      }
@@ -329,7 +355,7 @@ width: 50%;
  
 
 .project{
-  margin-top: 100px;
+ 
   text-align: center;
   background-color: black;
   color: white;
@@ -350,11 +376,13 @@ width: 50%;
 .testmonials{
   margin: 120px;
   text-align: center;
+  
 
 }
 .testmonials .container{
   display: flex;
   flex-direction: row;
+  
 
 
 
@@ -369,6 +397,7 @@ box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.25);
  align-items: center;
  justify-content: center;
  border-radius: 0px 25px 0px 25px;
+ 
   
 }
 
@@ -395,12 +424,13 @@ box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.25);
 
 
 .contacts .container{
-margin: auto;
+margin-top: 100px;
 background-color: white;
  width: 100%;
  height: 100vh;
  
 }
+
 
 .message{
   margin-top: 100px;
@@ -454,6 +484,7 @@ border-bottom:solid grey;
   .contacts .container .contactme{
     display: flex;
     flex-direction: row;
+ 
 
 
   }
@@ -518,19 +549,21 @@ margin-top: 10px;
   .icons{
     position: absolute;
     margin-top: -100px;
-    margin-left: 280px;
+    margin-left: 290px;
     display: flex;
     gap: 20px;
     
     
   }
-  .mail0{
+   .mail0{
     position: absolute;
     margin-top: -400px;
     margin-left: 100px;
     display: flex;
     color: white;
-  }
+   
+
+  } 
   .mail1{
     position: absolute;
     margin-top: -300px;
@@ -541,6 +574,11 @@ margin-top: 10px;
   .ml{
     margin-bottom: 10px;
     margin-right:40px;
+   
+  }
+  .mll{
+    text-decoration: none;
+    color: white;
   }
   .call{
     margin-right:40px;
@@ -581,46 +619,85 @@ margin-right: 500px;
   
   }
 
-  .design{
-    margin-top: 120px;
-  /*   background-color:  rgb(217, 217, 217);*/
-  border: 1px solid rgb(64, 64, 64);
-  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.25);
-    height: 550px;
-    width: 360px;
-   align-items: center;
-   justify-content: center;
-   border-radius: 0px 25px 0px 25px;
-    
-  }
-  .Development{
-    margin-top: 120px;
-  /*   background-color:  rgb(217, 217, 217);*/
-  border: 1px solid rgb(64, 64, 64);
-  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.25);
-    height: 550px;
-    width: 360px;
-   align-items: center;
-   justify-content: center;
-   border-radius: 0px 25px 0px 25px;
-  }
+
 
 
 *{
   margin: auto;
 }
+.Projects{
+  text-align: center;
+display: flex;
+flex-direction: column;
+}
 
 .Projects .container{
   display: flex;
   flex-direction: row;
-  text-align: center;
+  margin-top: 10px;
+ 
+}
+.Projects .one{
+  display: flex;
+  flex-direction: row;
+  margin-top: 30px;
+ margin-right: 100px;
+ 
+}
+.Projects .two{
+  display: flex;
+  flex-direction: row;
+  margin-top: 30px;
+ 
+ 
+}
+
+.tigizozzo{
+  width: 95%;
+  height: 50vh;
 }
 .flyway{
-  width: 100%;
+  width: 95%;
+  height: 50vh;
 }
-.tigizozo{
-  width: 100%;
+.marketing{
+  width: 400px;
 }
+
+.tigizozzo{
+  width: 95%;
+  height: 50vh;
+}
+.unc{
+  width: 95%;
+  height: 50vh;
+}
+
+.btnview{
+  border: none;
+  background-color:black;
+  padding: 14px 28px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  display: inline-block;
+  border-radius: 5px;
+  font-weight:bold;
+  margin-top: 40px;
+  list-style: none;
+  margin-bottom: 70px;
+  width: 200px;
+  text-align: center;
+  text-decoration: none;
+ 
+}
+
+.pro{
+  margin-top: 150px;
+}
+
+
+
 .btnsend1{
   border: none;
   background-color:black;
@@ -639,54 +716,236 @@ margin-right: 500px;
   text-decoration: none;
  
 }
-  
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
   
-
-  @media(max-width:576px){
-    .toggle-button{
-      display: flex;
-    }
-    .navbar-links{
-      display: none;
-     
-    }
-    .hero{
-      background-image: none;
-      background-color: black;
-
-    }
-    .btnhireme{
-      font-size: 15px;
-      padding: 10px 10px;
-      
-    }
-    .About  .container{
-      display:flex;
-      flex-direction: column;
-      margin-top: 100px;
-    }
   
-   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+   @media(max-width:575px){
+
+    body{
+
+
+      overflow-x: hidden;
+      margin: 0px;
+      padding: 0;
+      }
+
+  .navbar-links{
+   display: none;
 
   }
+  .hro{
+    margin: 10px;
+    
 
+  }
+  .hero{
+    background-image: none;
+    background-color: black;
+    
+  }
+  .hro .hello{
+    display: flex;
+  }
+  .navbar .toggle-button{
+  display: flex;
+
+  }
+  .navbar{
+   margin-left: 10px;
+   margin-right: 10px;
+
+  }
+  .brand-tittle{
+    margin-right: 400px;
+  }
+.herotxt{
+  text-align: center;
+}
+.btnhireme{
+  margin-left: 70px;
+}
+.About{
+  margin: 0%;
+  /*  align-items: center;  */
+ 
+}
+.About1{
+  margin: 0%;
+  align-items: center;
+
+}
+
+.About .container{
+  display: flex;
+  flex-direction: column;
+ /*  align-items: center;
+margin: 0px;
+padding: 0; */
+}
+.About1 .container{
+  display: flex;
+  flex-direction: column;
+
+}
+
+.abt{
+ position: relative;
+ align-items: center; 
+ left: 10;
+ 
+
+}
+.abt p{
+  margin: 0;
+}
+
+#myBtn{
+  margin: 0px;
+}
+.image3{
+position: relative;
+ margin-top: 10px;
+ right: 40px;
+ width: 100%;
+
+}
+.skills{
+  margin: 0;
+}
+
+
+.skills .container{
+     
+    display:flex;
+    flex-direction: column;
+    margin-top: 20px;
+
+   
+  }
+.skills{
+  margin-top: 20px;
+}
+.project .container{
+  display:flex;
+  flex-direction: column;
+
+  margin: 0px;
+  margin-top: 0;
+  
+
+}
+.icons{
+  display: none;
+}
+.project h3{
+  margin: 0%;
+}
+.project{
+  padding: 0px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+
+  margin: 0;
+}
+.projecticon{
+  height: 100px;
+  margin-top: 60px;
+}
+.btnCV{
+  font-size: 16px;
+}
+.project h3{
+width:100%;
+margin-top: 10px;
+}
+.testmonials .container{
+  display:flex;
+  flex-direction: column;
+  margin: 0px;
+ /*  position: relative;
+  right: 125px;  */
+}
+.testmonials{
+  align-items: center;
+}
+.teste{
+  width: 100%;
+  height: auto;
+}
+
+.contacts{
+  
+  background-color: whitesmoke;
+   padding-top: 70px;
+   padding: 0px;
+   margin: 0;
+   
+ }
+ .contacts h1{
+  padding-top: 70px;
+ 
+ }
+ .ctr{margin: 0;}
+ 
+ .btnsend{
+  width: 80%;
+ }
+ .group14{
+  display: none;
+ }
+.mail0{display: none;}
+
+.mail1{display: none;}
+ 
+ .contacts .container .contactme{
+  display:flex;
+  flex-direction: column;
+ margin-top: 10px;
+
+  
+ }
+ .log{
+  width: 30%;
+ }
+ .icons{
+margin-left: -100px;
+padding-top: 60px;
+  gap: 5px;
+  width: 20px;
+ }
+
+
+.ft{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.contacts{
+  width: 100%;
+}
+
+}
 
 
 
@@ -700,139 +959,140 @@ margin-right: 500px;
 
  
 @media(max-width:780px){
-.navbar-links{
-  display: none,
-}
-.toggle-button{
-  display: flex;
-}
-.navbar .brand-tittle{
-  display: none;
-}
-.hero{
-background-image: none;
-width: 100%;
 
-}
 
-.hro{
- margin: 0%;
-  padding-top: 200px;
-  width: 80%;
-  display: flex;
-justify-content: flex-start;
-align-items: center;
-flex-direction: column;
+.navbar-links {
+  position:absolute;
+ margin-top: 60px;
+ margin-left: 100px;
+}
+.navbar{
+  margin: 10px;
+  
+}
+.navbar-links li a{
+  
+  padding: 1rem;
  
 }
-.herotxt{
+.brand-tittle{
+  position: relative;
+  margin-right: 600px;
+  width: 10%;
+  margin-top: 30px;
+}
+/* .herosection{
+ height: auto;
+} */
+
+
+.abt p{
+  /* width: 400px; */
+  /* padding-left: -10px; */
+  font-size: 14px;
+ 
+}
+.About{
+  margin: 0px;
+  padding-left: 10px;
+}
+.image3{
+  margin-left: 40px;
+
+}
+.skillsicon{
+  width: 20%;
+}
+.skills .container p{
+  width: 90%;
+  font-size: 14px;
+}
+.skills{
+  margin: 0;
+  padding: 0;
+  padding-bottom: 100px;
+ padding-top: 100px;
+
+}
+
+.project .container h3{
+width: 100%;
+gap: 10px;
+font-size: 20px;
+}
+.projecticon{
+  width: 40%;
+}
+ .project{
+ padding: 0;
+ padding-right: 10px;
+ padding-top: 100px;
+ padding-bottom: 100px;
+} 
+.btnCV{
+  font-size: 16px; 
+}
+.teste{
+  width: 96%;
+
+}
+.teste p{
+  width: 90%;
+  font-size: 14px;
+}
+.teste h3{
+  font-size: 20px;
+}
+.testmonials{
+  margin: 0;
+  margin-top: 60px;
+}
+.testimg{
+  width: 40%;
+  margin-top: 40px;
+}
+.btnsend{
   width: 100%;
 }
-.hero .container{
-  margin: 0%;
+.icons{
+  right:380px;
+  margin-top: 290px;
+}
+.group14{
+  display: none;
+}
+.contacts .container{
+  height: auto;
+}
+.mail0{
+  display: none;
 
 }
-
-.About .container{
-  display:flex;
-  flex-direction: column;
-  margin-top: 0px;
-  
+.mail1{
+  display: none;
 }
-.About h1{
-  color:white;
-  text-align: center;
-  margin: 0%;
+.info{
+  display: none;
 }
-.ab{
-  margin-bottom: 10px;
-  }
-  
-  .abt{
-  color: white;
-  margin-top: 10px;
-  width: 98%;
-  }
-  .image3{
-display: none;
-  } 
-  .About{
-    padding: 10%;
-  }
 
-  .skills .container{
-    display: flex;
-    flex-direction: column;
-    margin: 10px;
-    
-  }
 
-  .skills{
-    /* padding: 80px; */
-       text-align: center;
-       margin: 0px;
-     
-     }
 
-     .project{
-      margin: 0px;
-      text-align: center;
-      background-color: black;
-      color: white;
-      padding:20px;
-    }
-    .project .container{
-      padding-top:0px;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      gap: 10px;
-     
-    }
-    .project h3{
-      width: 100%;
-     margin-left: 0px;
-     margin-top: 10px;
-    }
 
-    .testmonials .container{
-      display: flex;
-      flex-direction: column;
-    
-    }
-    .testmonials{
-      margin: 0px;
-      
-      text-align: center;
-    
-    }
-    .contacts{
-  
-      background-color: black;
-      color: white;
-      /* padding-left:200px; */
-      padding-top: 30px;
-      
-    }
-    .contacts h1{
-      text-align: center;
-    }
-    .contacts hr{
-    width: 60%;
-    height: 2px;
-    color: rgb(223, 31, 146) ;
-    }
-    .contacts .container{
-     margin-left: 0px;
-     margin-top: 0px;
-     
-    }
-    .footer1{
-      margin: 0;
-      width: 100%;
-    }
-  
 
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+} 
 
 
